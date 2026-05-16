@@ -1,0 +1,126 @@
+ body {
+   font-family: Arial;
+   background-color: #f2f2f2;
+   text-align: center;
+ }
+
+ .container {
+   width: 320px;
+   margin: auto;
+   margin-top: 50px;
+   padding: 20px;
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px gray;
+ }
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+ button {
+   padding: 10px 20px;
+   background: green;
+   color: white;
+   border: none;
+   cursor: pointer;
+   display: block;
+   margin: 15px auto;
+
+ }
+
+ h2 {
+   background: #ddd;
+   padding: 10px;
+ }
+
+ .book-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+   padding: 20px;
+ }
+
+ .book-card {
+   width: 300px;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: white;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   font-family: Arial, sans-serif;
+ }
+
+ .book-card:hover {
+   transform: scale(1.03);
+ }
+
+ .book-card h2 {
+   color: darkblue;
+   margin-bottom: 15px;
+ }
+
+ .book-card h3 {
+   color: #444;
+   margin: 8px 0;
+ }
+
+ .top-buttons {
+
+   display: flex;
+
+   justify-content: center;
+
+   gap: 20px;
+
+   margin: 25px 0;
+
+   flex-wrap: wrap;
+ }
+
+ .top-buttons button {
+
+   background-color: green;
+
+   color: white;
+
+   border: none;
+
+   padding: 12px 25px;
+
+   font-size: 18px;
+
+   border-radius: 8px;
+
+   cursor: pointer;
+
+   transition: 0.3s;
+ }
+
+ .top-buttons button:hover {
+
+   background-color: darkgreen;
+
+   transform: scale(1.05);
+ }
+ .field-row {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 20px;
+ }
+
+ .field-row label {
+   width: 140px;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: left;
+ }
+
+ .field-row input {
+   flex: 1;
+ }
